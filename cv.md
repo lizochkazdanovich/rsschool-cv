@@ -8,7 +8,6 @@ ________
  Age: 25
 ## *Languages*
 - Russian
-- Polish
 - English
 ## *Skills*
 - JavaScript
