@@ -9,6 +9,7 @@ ________
 ## *Languages*
 - Russian
 - English
+- Polish
 ## *Skills*
 - JavaScript
 - CSS
