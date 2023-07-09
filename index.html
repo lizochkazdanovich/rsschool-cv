@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  
-<body>    
-  <h1>
-    Here is a deskription of mine CV.
-  </h1>
-  <p>
-    Lizaveta Zdanovich
-  </p>
-  <script scr="script.js"> </script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#aboutme" class="nav-link">About me</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container">
+            <img src="https://s10.stc.all.kpcdn.net/family/wp-content/uploads/2022/12/top-ehkzoticheskie-zhivotnye-dlya-doma-960h540.jpg" alt="photo">
+            <section>
+                <h1 id="main">Lizaveta Zdanovich</h1>
+                <hr>
+            </section>
+            <section>
+                <h2 id="contacts">Contacts</h2>
+                <hr>
+                <ul>
+                    <li>📍 Warszawa</li>
+                    <li>📞 +48 792 223 682</li>
+                    <li>✉️ lizochka.zdanovich@gmail.com</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="aboutme">About me</h2>
+                <hr>
+                <p id="p1">I am 25 years old.I want to change my profession and that's why I'm taking a course at school. 
+            Recently my family and I moved from Belarus to Warsaw. 
+            I have a small dog with whom I like to spend my free time.</p>
+            </section>
+            <section>
+                <h2>Hobbies</h2>
+                <hr>
+                <ul>
+                    <li>✈️ traveling</li>
+                    <li>🐶 my dog</li>
+                    <li>🎼 music</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <hr>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="education">Education</h2>
+                <hr>
+                <ul>
+                   <li>2015-2019  International State Ecological Institute. BSU</li> 
+<li>2019-2020  International State Ecological Institute. BSU</li>
+<li>2021-2023  Belarusian State Pedagogical University</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Code Example</h2>
+                <hr>
+                <pre>
+<code>
+    function MULTIPLY(price, shipping) {
+        //Return the sum
+        return price*shipping;
+    }
+    
+    //Call MULTIPLY to multiply the two numbers
+    var product=MULTIPLY(number1, number2);
+</code>
+</pre>
+            </section>
+            ><section>
+                <h2>Languages</h2>
+                <hr>
+                <ul>
+                    <li>Russian</li>
+                    <li>Polish</li>
+                    <li>English</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__items">
+          <a href="https://rs.school/js/" class="footer__rsschool" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwtJFnm_-hfkdzZg_Gn6u3jPjAOm4NFoVEngU8OuXDw&s"
+              alt="rsschool" width="60"></a>
+          <p class="footer__text">2023</p>
+          <a href="https://github.com/lizochkazdanovich" class="footer__gh" target="_blank"><img
+              src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="github" width="40"></a>
+        </div>
+      </footer>
 </body>
-  
-</html>  
+</html>
